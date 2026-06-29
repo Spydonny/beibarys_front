@@ -1,0 +1,15 @@
+# Зависимости и сборка
+node_modules/
+dist/
+.vite/
+
+# Секреты / окружение
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Логи / ОС
+npm-debug.log*
+.DS_Store
+Thumbs.db
